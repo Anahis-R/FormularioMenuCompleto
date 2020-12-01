@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{495B786F-CE15-42DB-861B-F54951456DA6}</ProjectGuid>
+    <ProjectGuid>{0DCE0236-143B-4A71-9246-19BDE2C4B0CB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>FormularioMenuCompleto</RootNamespace>
-    <AssemblyName>FormularioMenuCompleto</AssemblyName>
+    <RootNamespace>formularioMenu</RootNamespace>
+    <AssemblyName>formularioMenu</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -84,6 +84,18 @@
     <Compile Include="SueldoTrabajador.Designer.cs">
       <DependentUpon>SueldoTrabajador.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BinarioDecimal.resx">
+      <DependentUpon>BinarioDecimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calendario.resx">
+      <DependentUpon>Calendario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdadMensajes.resx">
+      <DependentUpon>EdadMensajes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumeroBinario.resx">
+      <DependentUpon>NumeroBinario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Primo.resx">
       <DependentUpon>Primo.cs</DependentUpon>
     </EmbeddedResource>
@@ -96,6 +108,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SueldoTrabajador.resx">
+      <DependentUpon>SueldoTrabajador.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

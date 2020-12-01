@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FormularioMenuCompleto
+namespace formularioMenu
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace FormularioMenuCompleto
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Primo());
+            Application.Run(new BinarioDecimal());
         }
     }
 }
