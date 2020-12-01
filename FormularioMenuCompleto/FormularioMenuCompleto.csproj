@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BinarioDecimal.cs">
+    <Compile Include="BinarioADecimal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BinarioDecimal.Designer.cs">
-      <DependentUpon>BinarioDecimal.cs</DependentUpon>
+    <Compile Include="BinarioADecimal.Designer.cs">
+      <DependentUpon>BinarioADecimal.cs</DependentUpon>
     </Compile>
     <Compile Include="Calendario.cs">
       <SubType>Form</SubType>
@@ -58,17 +58,23 @@
     <Compile Include="Calendario.Designer.cs">
       <DependentUpon>Calendario.cs</DependentUpon>
     </Compile>
-    <Compile Include="EdadMensajes.cs">
+    <Compile Include="EdadMensaje.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EdadMensajes.Designer.cs">
-      <DependentUpon>EdadMensajes.cs</DependentUpon>
+    <Compile Include="EdadMensaje.Designer.cs">
+      <DependentUpon>EdadMensaje.cs</DependentUpon>
     </Compile>
-    <Compile Include="Factorial.cs">
+    <Compile Include="Factoriales.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Factorial.Designer.cs">
-      <DependentUpon>Factorial.cs</DependentUpon>
+    <Compile Include="Factoriales.Designer.cs">
+      <DependentUpon>Factoriales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Multiplicar.cs">
       <SubType>Form</SubType>
@@ -76,34 +82,49 @@
     <Compile Include="Multiplicar.Designer.cs">
       <DependentUpon>Multiplicar.cs</DependentUpon>
     </Compile>
-    <Compile Include="NumeroBinario.cs">
+    <Compile Include="NumeroABinario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NumeroBinario.Designer.cs">
-      <DependentUpon>NumeroBinario.cs</DependentUpon>
+    <Compile Include="NumeroABinario.Designer.cs">
+      <DependentUpon>NumeroABinario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Primo.cs">
+    <Compile Include="NumeroPrimo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Primo.Designer.cs">
-      <DependentUpon>Primo.cs</DependentUpon>
+    <Compile Include="NumeroPrimo.Designer.cs">
+      <DependentUpon>NumeroPrimo.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SueldoTrabajador.cs">
+    <Compile Include="Sueldo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SueldoTrabajador.Designer.cs">
-      <DependentUpon>SueldoTrabajador.cs</DependentUpon>
+    <Compile Include="Sueldo.Designer.cs">
+      <DependentUpon>Sueldo.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Factorial.resx">
-      <DependentUpon>Factorial.cs</DependentUpon>
+    <EmbeddedResource Include="BinarioADecimal.resx">
+      <DependentUpon>BinarioADecimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calendario.resx">
+      <DependentUpon>Calendario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdadMensaje.resx">
+      <DependentUpon>EdadMensaje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Factoriales.resx">
+      <DependentUpon>Factoriales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Multiplicar.resx">
       <DependentUpon>Multiplicar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Primo.resx">
-      <DependentUpon>Primo.cs</DependentUpon>
+    <EmbeddedResource Include="NumeroABinario.resx">
+      <DependentUpon>NumeroABinario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumeroPrimo.resx">
+      <DependentUpon>NumeroPrimo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -114,6 +135,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Sueldo.resx">
+      <DependentUpon>Sueldo.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

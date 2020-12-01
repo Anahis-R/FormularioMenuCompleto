@@ -1,6 +1,6 @@
-﻿namespace formularioMenu
+﻿namespace FormularioMenuCompleto
 {
-    partial class NumeroBinario
+    partial class BinarioADecimal
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnCalcular1 = new System.Windows.Forms.Button();
+            this.btnCalcular = new System.Windows.Forms.Button();
             this.txtNumero = new System.Windows.Forms.TextBox();
-            this.EnteroDecimal = new System.Windows.Forms.GroupBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.chk8 = new System.Windows.Forms.CheckBox();
             this.chk6 = new System.Windows.Forms.CheckBox();
             this.chk7 = new System.Windows.Forms.CheckBox();
@@ -40,42 +40,45 @@
             this.chk2 = new System.Windows.Forms.CheckBox();
             this.chk1 = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.EnteroDecimal.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btnCalcular1
+            // btnCalcular
             // 
-            this.btnCalcular1.Location = new System.Drawing.Point(385, 28);
-            this.btnCalcular1.Name = "btnCalcular1";
-            this.btnCalcular1.Size = new System.Drawing.Size(75, 23);
-            this.btnCalcular1.TabIndex = 9;
-            this.btnCalcular1.Text = "CALCULAR";
-            this.btnCalcular1.UseVisualStyleBackColor = true;
+            this.btnCalcular.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcular.Location = new System.Drawing.Point(435, 58);
+            this.btnCalcular.Name = "btnCalcular";
+            this.btnCalcular.Size = new System.Drawing.Size(75, 23);
+            this.btnCalcular.TabIndex = 16;
+            this.btnCalcular.Text = "Calcular";
+            this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // txtNumero
             // 
-            this.txtNumero.Location = new System.Drawing.Point(255, 31);
+            this.txtNumero.Location = new System.Drawing.Point(179, 142);
             this.txtNumero.Name = "txtNumero";
-            this.txtNumero.Size = new System.Drawing.Size(124, 20);
-            this.txtNumero.TabIndex = 8;
+            this.txtNumero.Size = new System.Drawing.Size(104, 20);
+            this.txtNumero.TabIndex = 15;
             // 
-            // EnteroDecimal
+            // groupBox1
             // 
-            this.EnteroDecimal.BackColor = System.Drawing.Color.Transparent;
-            this.EnteroDecimal.Controls.Add(this.chk8);
-            this.EnteroDecimal.Controls.Add(this.chk6);
-            this.EnteroDecimal.Controls.Add(this.chk7);
-            this.EnteroDecimal.Controls.Add(this.chk5);
-            this.EnteroDecimal.Controls.Add(this.chk4);
-            this.EnteroDecimal.Controls.Add(this.chk3);
-            this.EnteroDecimal.Controls.Add(this.chk2);
-            this.EnteroDecimal.Controls.Add(this.chk1);
-            this.EnteroDecimal.Location = new System.Drawing.Point(28, 67);
-            this.EnteroDecimal.Name = "EnteroDecimal";
-            this.EnteroDecimal.Size = new System.Drawing.Size(372, 100);
-            this.EnteroDecimal.TabIndex = 7;
-            this.EnteroDecimal.TabStop = false;
-            this.EnteroDecimal.Text = "Entero a Decimal";
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.Controls.Add(this.chk8);
+            this.groupBox1.Controls.Add(this.chk6);
+            this.groupBox1.Controls.Add(this.chk7);
+            this.groupBox1.Controls.Add(this.chk5);
+            this.groupBox1.Controls.Add(this.chk4);
+            this.groupBox1.Controls.Add(this.chk3);
+            this.groupBox1.Controls.Add(this.chk2);
+            this.groupBox1.Controls.Add(this.chk1);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(28, 21);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(372, 100);
+            this.groupBox1.TabIndex = 14;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Binario a Decimal";
             // 
             // chk8
             // 
@@ -154,27 +157,26 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 32);
+            this.label1.Location = new System.Drawing.Point(30, 141);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(225, 21);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Ingrese el numero a calcular";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.Size = new System.Drawing.Size(120, 21);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "El resultado es";
             // 
-            // NumeroBinario
+            // BinarioADecimal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Desktop;
-            this.ClientSize = new System.Drawing.Size(582, 263);
-            this.Controls.Add(this.btnCalcular1);
+            this.BackColor = System.Drawing.Color.LemonChiffon;
+            this.ClientSize = new System.Drawing.Size(546, 221);
+            this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtNumero);
-            this.Controls.Add(this.EnteroDecimal);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
-            this.Name = "NumeroBinario";
-            this.Text = "NumeroBinario";
-            this.EnteroDecimal.ResumeLayout(false);
-            this.EnteroDecimal.PerformLayout();
+            this.Name = "BinarioADecimal";
+            this.Text = "BinarioADecimal";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -182,9 +184,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnCalcular1;
+        private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.TextBox txtNumero;
-        private System.Windows.Forms.GroupBox EnteroDecimal;
+        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.CheckBox chk8;
         private System.Windows.Forms.CheckBox chk6;
         private System.Windows.Forms.CheckBox chk7;

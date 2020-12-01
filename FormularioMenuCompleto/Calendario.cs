@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace formularioMenu
+namespace FormularioMenuCompleto
 {
     public partial class Calendario : Form
     {
@@ -19,10 +19,10 @@ namespace formularioMenu
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            //AÑOS
+            
             int edadAnio = DateTime.Today.Year - dtpEdad.Value.Year;
             txtAños.Text = Convert.ToString(edadAnio + " años de edad");
-            //DIAS
+           
             int edadDias = (DateTime.Today.Year - dtpEdad.Value.Year) * 365;
             edadDias = edadDias + (DateTime.Today.Month - dtpEdad.Value.Month) * 30;
             edadDias = edadDias + 1;

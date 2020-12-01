@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FormularioMenu
+namespace FormularioMenuCompleto
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace FormularioMenu
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Factorial());
+            Application.Run(new Menu());
         }
     }
 }

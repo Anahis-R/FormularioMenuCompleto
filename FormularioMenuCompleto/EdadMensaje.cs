@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace formularioMenu
+namespace FormularioMenuCompleto
 {
-    public partial class EdadMensajes : Form
+    public partial class EdadMensaje : Form
     {
-        public EdadMensajes()
+        public EdadMensaje()
         {
             InitializeComponent();
         }
@@ -28,21 +28,21 @@ namespace formularioMenu
             }
             else if (edad >= 15 && edad <= 17)
             {
-                lbRespuesta.Text =  this.txtNom.Text + " eres menor de edad ";
+                lbRespuesta.Text = this.txtNom.Text + " eres menor de edad ";
             }
             else if (edad >= 18 && edad <= 25)
             {
-                lbRespuesta.Text =  this.txtNom.Text + " puedes votar en las elecciones 2021 ";
+                lbRespuesta.Text = this.txtNom.Text + " puedes votar en las elecciones 2021 ";
 
             }
             else if (edad >= 26 && edad <= 30)
             {
-                lbRespuesta.Text =  this.txtNom.Text + " ya debes casarte ";
+                lbRespuesta.Text = this.txtNom.Text + " ya debes casarte ";
 
             }
             else if (edad >= 31 && edad <= 50)
             {
-                lbRespuesta.Text =  this.txtNom.Text + " trabaja, duerme y disfruta ";
+                lbRespuesta.Text = this.txtNom.Text + " trabaja, duerme y disfruta ";
 
             }
             else if (edad > 50)

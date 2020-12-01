@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace formularioMenu
+namespace FormularioMenuCompleto
 {
-    public partial class NumeroBinario : Form
+    public partial class NumeroABinario : Form
     {
-        public NumeroBinario()
+        public NumeroABinario()
         {
             InitializeComponent();
         }
@@ -32,7 +32,7 @@ namespace formularioMenu
         }
         void encerar()
         {
-       
+
             this.chk1.Checked = false;
             this.chk2.Checked = false;
             this.chk3.Checked = false;
@@ -70,11 +70,6 @@ namespace formularioMenu
 
                 num = num / 2;
             }
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

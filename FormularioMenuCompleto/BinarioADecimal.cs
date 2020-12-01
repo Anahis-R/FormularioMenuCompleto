@@ -8,23 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace formularioMenu
+namespace FormularioMenuCompleto
 {
-    public partial class BinarioDecimal : Form
+    public partial class BinarioADecimal : Form
     {
-        public BinarioDecimal()
+        public BinarioADecimal()
         {
             InitializeComponent();
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-
             double re = 0;
             double suma = 0;
             if (chk8.Checked == true)
@@ -68,11 +62,6 @@ namespace formularioMenu
                 suma = suma + re;
             }
             txtNumero.Text = suma.ToString();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

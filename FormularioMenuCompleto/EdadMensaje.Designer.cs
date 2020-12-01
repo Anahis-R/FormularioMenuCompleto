@@ -1,6 +1,6 @@
-﻿namespace formularioMenu
+﻿namespace FormularioMenuCompleto
 {
-    partial class EdadMensajes
+    partial class EdadMensaje
     {
         /// <summary>
         /// Required designer variable.
@@ -40,24 +40,24 @@
             // 
             this.lbRespuesta.AutoSize = true;
             this.lbRespuesta.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbRespuesta.Location = new System.Drawing.Point(26, 119);
+            this.lbRespuesta.Location = new System.Drawing.Point(27, 127);
             this.lbRespuesta.Name = "lbRespuesta";
             this.lbRespuesta.Size = new System.Drawing.Size(0, 21);
-            this.lbRespuesta.TabIndex = 11;
+            this.lbRespuesta.TabIndex = 17;
             // 
             // txtEdad
             // 
-            this.txtEdad.Location = new System.Drawing.Point(193, 71);
+            this.txtEdad.Location = new System.Drawing.Point(194, 79);
             this.txtEdad.Name = "txtEdad";
             this.txtEdad.Size = new System.Drawing.Size(86, 20);
-            this.txtEdad.TabIndex = 10;
+            this.txtEdad.TabIndex = 16;
             // 
             // txtNom
             // 
-            this.txtNom.Location = new System.Drawing.Point(285, 25);
+            this.txtNom.Location = new System.Drawing.Point(286, 33);
             this.txtNom.Name = "txtNom";
             this.txtNom.Size = new System.Drawing.Size(249, 20);
-            this.txtNom.TabIndex = 9;
+            this.txtNom.TabIndex = 15;
             // 
             // label2
             // 
@@ -65,10 +65,10 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(26, 69);
+            this.label2.Location = new System.Drawing.Point(27, 77);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(161, 21);
-            this.label2.TabIndex = 8;
+            this.label2.TabIndex = 14;
             this.label2.Text = "INGRESE SU EDAD : ";
             // 
             // label1
@@ -77,37 +77,37 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(26, 25);
+            this.label1.Location = new System.Drawing.Point(27, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(253, 21);
-            this.label1.TabIndex = 7;
+            this.label1.TabIndex = 13;
             this.label1.Text = "INGRESE EL NOMBRE USUARIO :";
             // 
             // btnCalcular
             // 
             this.btnCalcular.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(312, 58);
+            this.btnCalcular.Location = new System.Drawing.Point(313, 66);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(87, 33);
-            this.btnCalcular.TabIndex = 6;
+            this.btnCalcular.TabIndex = 12;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
-            // EdadMensajes
+            // EdadMensaje
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Aquamarine;
-            this.ClientSize = new System.Drawing.Size(621, 191);
+            this.BackColor = System.Drawing.Color.Moccasin;
+            this.ClientSize = new System.Drawing.Size(602, 196);
             this.Controls.Add(this.lbRespuesta);
             this.Controls.Add(this.txtEdad);
             this.Controls.Add(this.txtNom);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCalcular);
-            this.Name = "EdadMensajes";
-            this.Text = "EdadMensajes";
+            this.Name = "EdadMensaje";
+            this.Text = "EdadMensaje";
             this.ResumeLayout(false);
             this.PerformLayout();
 

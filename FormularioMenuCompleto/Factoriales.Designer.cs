@@ -1,6 +1,6 @@
-﻿namespace FormularioMenu
+﻿namespace FormularioMenuCompleto
 {
-    partial class Factorial
+    partial class Factoriales
     {
         /// <summary>
         /// Required designer variable.
@@ -41,10 +41,10 @@
             this.txtRespuesta.BackColor = System.Drawing.Color.Transparent;
             this.txtRespuesta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRespuesta.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txtRespuesta.Location = new System.Drawing.Point(177, 157);
+            this.txtRespuesta.Location = new System.Drawing.Point(173, 149);
             this.txtRespuesta.Name = "txtRespuesta";
             this.txtRespuesta.Size = new System.Drawing.Size(0, 18);
-            this.txtRespuesta.TabIndex = 9;
+            this.txtRespuesta.TabIndex = 14;
             // 
             // label2
             // 
@@ -52,29 +52,29 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(36, 155);
+            this.label2.Location = new System.Drawing.Point(32, 147);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(126, 20);
-            this.label2.TabIndex = 8;
+            this.label2.TabIndex = 13;
             this.label2.Text = "RESPUESTA: ";
             // 
             // btnCalcular
             // 
             this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(41, 91);
+            this.btnCalcular.Location = new System.Drawing.Point(37, 83);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(75, 23);
-            this.btnCalcular.TabIndex = 7;
+            this.btnCalcular.TabIndex = 12;
             this.btnCalcular.Text = "CALCULAR";
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // txtNumero
             // 
-            this.txtNumero.Location = new System.Drawing.Point(368, 35);
+            this.txtNumero.Location = new System.Drawing.Point(364, 27);
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(113, 20);
-            this.txtNumero.TabIndex = 6;
+            this.txtNumero.TabIndex = 11;
             // 
             // label1
             // 
@@ -82,25 +82,25 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(37, 33);
+            this.label1.Location = new System.Drawing.Point(33, 25);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(325, 20);
-            this.label1.TabIndex = 5;
+            this.label1.TabIndex = 10;
             this.label1.Text = "INGRESE EL NUMERO A CALCULAR: ";
             // 
-            // Factorial
+            // Factoriales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DarkOrange;
-            this.ClientSize = new System.Drawing.Size(559, 242);
+            this.BackColor = System.Drawing.Color.Khaki;
+            this.ClientSize = new System.Drawing.Size(580, 199);
             this.Controls.Add(this.txtRespuesta);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtNumero);
             this.Controls.Add(this.label1);
-            this.Name = "Factorial";
-            this.Text = "Factorial";
+            this.Name = "Factoriales";
+            this.Text = "Factoriales";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace formularioMenu
+namespace FormularioMenuCompleto
 {
-    public partial class Primo : Form
+    public partial class NumeroPrimo : Form
     {
-        public Primo()
+        public NumeroPrimo()
         {
             InitializeComponent();
         }

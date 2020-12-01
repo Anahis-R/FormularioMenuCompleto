@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FormularioMenu
+namespace FormularioMenuCompleto
 {
-    public partial class Factorial : Form
+    public partial class Factoriales : Form
     {
-        public Factorial()
+        public Factoriales()
         {
             InitializeComponent();
         }
