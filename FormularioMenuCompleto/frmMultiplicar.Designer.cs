@@ -1,4 +1,4 @@
-﻿namespace FormularioApp
+﻿namespace FormularioMenuCompleto
 {
     partial class frmMultiplicar
     {
