@@ -16,7 +16,7 @@ namespace formularioMenu
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BinarioDecimal());
+            Application.Run(new ());
         }
     }
 }
