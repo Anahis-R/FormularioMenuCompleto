@@ -8,26 +8,27 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FormularioMenuCompleto
+namespace FormularioMenu
 {
-    public partial class frmMultiplicar : Form
+    public partial class Factorial : Form
     {
-        public frmMultiplicar()
+        public Factorial()
         {
             InitializeComponent();
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Clear();
-            int tabla = int.Parse(txtNumero.Text);
-            int re;
+            int num, i;
+            double result = 1;
 
-            for(int j=1; j<=10; j++)
+            num = int.Parse(txtNumero.Text);
+            for (i = 2; i <= num; i++)
             {
-                re = tabla * j;
-                listBox1.Items.Add(tabla+" x "+ j +" = "+ re);
+                result = result * i;
             }
+
+            txtRespuesta.Text = "El factorial del numero es :  " + result;
         }
     }
 }
